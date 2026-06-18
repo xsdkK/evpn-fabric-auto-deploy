@@ -2,7 +2,7 @@
 set -e
 echo "Create namespaces"
 
-ip netns add spine1
+ip netns add spine
 ip netns add leaf1
 ip netns add leaf2
 
